@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste classification</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gird.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/icon/css/all.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <div class="app">
+
+        <div class="header">
+            <div class="grid wide">
+                <nav id="#header" class="header_navbar">
+                    <ul class="header_navbar_list">
+                        <div class="nav">
+                            <input type="checkbox" hidden class="nav__input" id="nav__mobile-input">
+                            <nav class="nav__mobile">
+                                <label for="nav__mobile-input" class="nav__mobile-close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                                <ul class="nav__mobile-list">
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="">Trang chủ</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="#Gioi_Thieu">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="#thong_tin">Thông tin</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="AI.html">Công nghệ</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <label for="nav__mobile-input" class="header__mobile-navbar">
+                                <i class="header__mobile-navbar-icon fa-solid fa-bars"></i>
+                            </label>
+
+
+
+
+                            <label for="nav__mobile-input" class="nav__overlay"></label>
+                        </div>
+                        <div class="img_navbar">
+                            <a href="index.html"><img class="header_navbar_img" src="img/logo.png" alt=""></a>
+                        </div>
+                        <ul class="navbar_list">
+                            <li class="header_navbar_item">
+                                <a href="index.html" class="header_navbar-link">Trang chủ</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="#Gioi_Thieu" class="header_navbar-link">Giới thiệu</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="#thong_tin" class="header_navbar-link">Thông tin</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="AI.html" class="header_navbar-link">Công nghệ</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="#" class="header_navbar-link">Liên hệ</a>
+                            </li>
+                        </ul>
+
+                        <ul class="icon_navbar">
+                            <li class="icon_item">
+                                <a href="https://web.facebook.com/profile.php?id=100060826544162&locale=vi_VN"><img
+                                        class="img_fb" src="img/icon_fb.png" alt=""></a>
+                            </li>
+                            <li class="icon_item">
+                                <a href="https://www.instagram.com/y0ungb0i.lowkey_vang/"><img class="img_fb"
+                                        src="img/icon_ig.webp" alt=""></a>
+                            </li>
+                            <li class="icon_item">
+                                <a href=""><img class="img_fb" src="img/icon_discord.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container_1">
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div id="Gioi_Thieu" class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./img/banner_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/banner_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner_3.png" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="grid wide">
+            <div id="thong_tin" class="row sm-gutter app_content">
+                <div class="col l-8 c-12">
+                    <img class=" app_content_img" src="img/Blue Futuristic Promotion AI School Facebook Post.png"
+                        alt="">
+                </div>
+
+                <div class="col l-4 app_content_header">
+                    <h1 class="app_content_heading">Phân loại theo nguồn gốc phát sinh
+                        Phân loại rác thải sinh hoạt</h1>
+                    <p class="app_content_label">Chất thải sinh hoạt là các loại rác bị loại ra trong quá trình sinh
+                        hoạt, hoạt động sản của con người, động vật. Cũng có nhiều người đã định nghĩa hóm hỉnh rác
+                        thải sinh hoạt là hữu cơ phục vụ cho con người. Khi không còn được sử dụng, chúng được coi
+                        là “tàn tích” và bị vứt trả lại môi trường sống.
+                    </p>
+
+                </div>
+
+                <div class="col l-4 c-12">
+                    <h1 class="waste_classification-heading">Rác thải hữu cơ</h1>
+                    <p class="waste_classification-lbl">
+                        Rác thải hữu cơ rất dễ phân hủy. Chúng thường được tái chế thành phân hữu cơ hoặc thức ăn
+                        cho động vật. Rác thải hữu cơ bao gồm:
+                    </p>
+                    <p class="waste_classification-lbl">
+                        – Phần bỏ đi của thực phẩm sau khi đã lấy đi phần chế biến được: các loại rau củ bị hư thối
+                    </p>
+                    <p class="waste_classification-lbl">
+                        – Thực phẩm thừa, hỏng: cơm/canh/thức ăn thừa hoặc thiu, bã chè, cafe
+                    </p>
+                    <p class="waste_classification-lbl">
+                        – Hoa, lá, cỏ, cây không được sử dụng: cỏ cây bị cắt xén, hoa rụng…
+                    </p>
+
+
+                </div>
+                <div class="col l-4 c-12">
+                    <h1 class="waste_classification-heading">Rác thải vô cơ</h1>
+                    <p class="waste_classification-lbl">
+                        Rác vô cơ là tất cả những loại rác không thể sử dụng cũng không thể tái chế. Chúng chỉ có
+                        thể được xử lý bằng cách chôn lấp. Rác vô cơ bao gồm:
+                    </p>
+                    <p class="waste_classification-lbl">
+                        – Bao bì bọc bên ngoài chai/hộp thực phẩm
+                    <p class="waste_classification-lbl">
+                        – Túi nilon được bỏ đi. Những chiếc túi này có thể “sống sót” khá lâu. Nếu chôn ở dưới lòng
+                        đất, nó sẽ phân hủy hết trong 400 – 600 năm.
+                    </p>
+                    <p class="waste_classification-lbl">
+                        – Vật dụng/ thiết bị bị bỏ đi trong đời sống hàng ngày của con người.
+                    </p>
+                </div>
+                <div class="col l-4 c-12">
+                    <h1 class="waste_classification-heading">Rác thải tái chế</h1>
+                    <p class="waste_classification-lbl">
+                        Rác tái chế là loại rác khó phân hủy nhưng có thể tái chế sử dụng. Ví dụ như các loại giấy thải,
+                        các vỏ hộp/chai/ vỏ lon thực phẩm.
+                    </p>
+                </div>
+
+                <h1 class="waste_classification-heading">Ứng dụng công nghệ thông tin AI trong quản lý rác thải</h1>
+                <h2 class="waste_classification-h2">Công nghệ AI trong quản lý rác thải</h2>
+                <p class="waste_classification-lbl">
+                    Trong thời gian gần đây, AI đã nổi lên như một công cụ không thể thiếu trong việc quản lý rác thải,
+                    giúp đối phó với các thách thức môi trường và kinh tế bằng việc tạo ra các giải pháp tối ưu hơn,
+                    đồng thời giảm thiểu ảnh hưởng
+                    xấu đến môi trường. AI trong lĩnh vực này có thể được tích hợp thành một hệ thống toàn diện với phần
+                    mềm và phần cứng, chẳng hạn như hệ thống phân loại rác tự động kết hợp camera và thuật toán AI, hoặc
+                    đơn thuần là phần mềm trên
+                    các thiết bị di động hoặc máy tính, hỗ trợ nhân viên quản lý trong việc thu thập và phân tích dữ
+                    liệu rác thải hiệu quả.
+                </p>
+                <div class=" img_content">
+                    <div class="grid wide">
+                        <div class="col l-12">
+                            <img class="img_content_1" src="./img/img_mid.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <p class="waste_classification-lbl-hl">
+                    <mark> Công nghệ AI đóng vai trò quan trọng trong quản lý rác thải thông qua nhiều ứng dụng: từ phân
+                        loại rác tự động, dự đoán lượng rác sản xuất, giám sát hệ thống quản lý rác, tối ưu hóa quá
+                        trình tái chế, dự báo bảo
+                        trì cho thiết bị, tối ưu hóa địa điểm và thiết bị tập kết rác, cho đến tự động hóa báo cáo bền
+                        vững.</mark> Những ứng dụng này góp phần nâng cao hiệu quả, chính xác trong quản lý, thu gom, và
+                    tái chế rác, đồng thời giúp giảm thiểu chi phí và tác động môi trường.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="footer__app">
+            <div class="footer__top">
+                <div class="grid wide">
+                    <ul class="footer__top_list">
+                        <li class="footer__top_item">
+                            <a href="#header" class="footer__top_link">Home</a>
+                        </li>
+                        <li class="footer__top_item">
+                            <a href="" class="footer__top_link">Features</a>
+                        </li>
+                        <li class="footer__top_item">
+                            <a href="" class="footer__top_link">Pricing</a>
+                        </li>
+                        <li class="footer__top_item">
+                            <a href="" class="footer__top_link">FAQs</a>
+                        </li>
+                        <li class="footer__top_item">
+                            <a href="" class="footer__top_link">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">© 2024 FPT POLYTECHNIC.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+</body>
+
+</html>

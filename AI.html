@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/ai.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gird.css">
+    <link rel="stylesheet" href="assets/fonts/icon/css/all.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid wide">
+                <nav id="#header" class="header_navbar">
+                    <ul class="header_navbar_list">
+                        <div class="nav">
+                            <input type="checkbox" hidden class="nav__input" id="nav__mobile-input">
+                            <nav class="nav__mobile">
+                                <label for="nav__mobile-input" class="nav__mobile-close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </label>
+                                <ul class="nav__mobile-list">
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="">Trang chủ</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="#Gioi_Thieu">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="#thong_tin">Thông tin</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="AI.html">Công nghệ</a>
+                                    </li>
+                                    <li class="nav__mobile-item">
+                                        <a class="nav__mobile-link" href="">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <label for="nav__mobile-input" class="header__mobile-navbar">
+                                <i class="header__mobile-navbar-icon fa-solid fa-bars"></i>
+                            </label>
+
+
+
+
+                            <label for="nav__mobile-input" class="nav__overlay"></label>
+                        </div>
+                        <div class="img_navbar">
+                            <a href="index.html"><img class="header_navbar_img" src="img/logo.png" alt=""></a>
+                        </div>
+                        <ul class="navbar_list">
+                            <li class="header_navbar_item">
+                                <a href="index.html" class="header_navbar-link">Trang chủ</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="#Gioi_Thieu" class="header_navbar-link">Giới thiệu</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="#thong_tin" class="header_navbar-link">Thông tin</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="AI.html" class="header_navbar-link">Công nghệ</a>
+                            </li>
+                            <li class="header_navbar_item">
+                                <a href="#" class="header_navbar-link">Liên hệ</a>
+                            </li>
+                        </ul>
+
+                        <ul class="icon_navbar">
+                            <li class="icon_item">
+                                <a href="https://web.facebook.com/profile.php?id=100060826544162&locale=vi_VN"><img
+                                        class="img_fb" src="img/icon_fb.png" alt=""></a>
+                            </li>
+                            <li class="icon_item">
+                                <a href="https://www.instagram.com/y0ungb0i.lowkey_vang/"><img class="img_fb"
+                                        src="img/icon_ig.webp" alt=""></a>
+                            </li>
+                            <li class="icon_item">
+                                <a href=""><img class="img_fb" src="img/icon_discord.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="ai">
+                <div class="grid wide">
+                    <video id="webcam" autoplay playsinline ></video>
+                    <div class="btn">
+                        <p id="result"></p>
+                        <canvas id="canvas" style="display:none;"></canvas>
+                        <button id="captureButton">Capture</button>
+                        <button id="uploadButton">Upload</button>
+                    </div>
+                </div>
+            </div>
+            <script src="index.js"></script>
+        </div>
+
+
+        <footer>
+            <div class="footer__app">
+                <div class="footer__top">
+                    <div class="grid wide">
+                        <div class="col l-12">
+                        <ul class="footer__top_list">
+                            <li class="footer__top_item">
+                                <a href="" class="footer__top_link">Home</a>
+                            </li>
+                            <li class="footer__top_item">
+                                <a href="" class="footer__top_link">Features</a>
+                            </li>
+                            <li class="footer__top_item">
+                                <a href="" class="footer__top_link">Pricing</a>
+                            </li>
+                            <li class="footer__top_item">
+                                <a href="" class="footer__top_link">FAQs</a>
+                            </li>
+                            <li class="footer__top_item">
+                                <a href="" class="footer__top_link">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="grid wide">
+                        <p class="footer__text">© 2024 FPT POLYTECHNIC.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+</body>
+
+</html>

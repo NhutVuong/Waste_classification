@@ -1,0 +1,67 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+
+
+.app {
+    width: 100%;
+}
+
+#webcam {
+
+}
+
+.btn {
+    text-align: center;
+}
+
+#result {
+    font-size: 2rem;
+}
+#uploadButton,
+#captureButton {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6AAA95;
+    color: #fff;
+}
+
+
+
+#webcam {
+    width: 100%;
+}
+
+#captureButton:hover {
+    opacity: 0.5;
+}
+
+#uploadButton:hover {
+    opacity: 0.5;
+}
+
+#result {
+    margin: 20px 0 10px 0;
+}
+
+#uploadButton {
+    margin-left: 20px;
+}
+.container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
